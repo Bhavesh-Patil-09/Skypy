@@ -38,5 +38,5 @@ The application's user interface consists of two main windows:
 
 1. **Login Window:** Users enter their Skype credentials (username and password) to log in.
 
-   ![login screen](image/README/login.png "skypy login window")
-2. **Data Window (Main Window):** After successful login, users are presented with a table displaying their Skype contacts. They can select contacts and create Skype groups.![create_group](image/README/create_grp.png "skypy create group window")
+   ![login screen](image/README/login.png)
+2. **Data Window (Main Window):** After successful login, users are presented with a table displaying their Skype contacts. They can select contacts and create Skype groups.![create_group](image/README/create_grp.png)
