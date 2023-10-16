@@ -17,9 +17,9 @@ from utils import authenticate, fetch_all_contacts, create_group
 from requests.exceptions import ConnectionError
 
 
-class Data:
-    def __init__(self, value):
-        self.value = value
+# class Data:
+#     def __init__(self, value):
+#         self.value = value
 
 
 class LoginWindow(QWidget):
@@ -90,7 +90,7 @@ class DataWindow(QWidget):
 
         # Create a table widget and add it to the window
         self.table_widget = QTableWidget(self)
-        self.table_widget.setGeometry(50, 50, 300, 200)
+        self.table_widget.setGeometry(50, 50, 500, 200)
 
         # Set the number of rows and columns in the table
         self.table_widget.setRowCount(len(self.contact_list))
